@@ -182,7 +182,7 @@ void displayCenterText(String line1, String line2, int16_t lineSpacing, int16_t 
 
   // Calculate the position to center the text
   int16_t xPos1 = (display.width() - w1) / 2;
-  int16_t yPos1 = (display.height() - h1 - h2 - lineSpacing) / 2+20;
+  int16_t yPos1 = (display.height() - h1 - h2 - lineSpacing) / 2+17;
 
   int16_t xPos2 = (display.width() - w2) / 2;
   int16_t yPos2 = yPos1 + h1 + lineSpacing;
